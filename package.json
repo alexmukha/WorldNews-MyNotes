@@ -1,27 +1,19 @@
 {
-  "name": "WorldNews-MyNotes",
+  "name": "NewsScraper",
   "version": "1.0.0",
-  "description": "App to scrape news from a website and attach personal notes.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexmukha/WorldNews-MyNotes.git"
-  },
-  "keywords": ["scrape","scraping","cheerio","express","mongoose","handlebars"],
-  "author": "Alex Mukha",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alexmukha/WorldNews-MyNotes/issues"
-  },
-  "homepage": "https://github.com/alexmukha/WorldNews-MyNotes#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
-    "mongoose": "^5.5.4"
+    "mongoose": "^5.5.6"
   }
 }
